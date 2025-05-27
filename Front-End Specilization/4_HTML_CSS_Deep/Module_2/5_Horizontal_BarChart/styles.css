@@ -1,0 +1,39 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.label {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.male {
+  flex-basis: 60%;
+  background-color: #1E90FF;
+  width: 60%;
+}
+
+.female {
+  flex-basis: 40%;
+  background-color: #FF69B4;
+  width: 40%;
+}
