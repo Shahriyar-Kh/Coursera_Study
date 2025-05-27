@@ -1,0 +1,29 @@
+/* Set the body to use grid layout and define full viewport height */
+body {
+  display: grid;                       /* Enables CSS Grid */
+  height: 150vh;                       /* 150% of the viewport height */
+  grid-template-rows: auto 1fr auto;   /* Header: auto, Main: fill space, Footer: auto */
+  margin: 0;                           /* Remove default body margin */
+  font-family: Arial, sans-serif;      /* Set font */
+}
+
+/* Style for header */
+header {
+  background-color: lightblue;         /* Light blue background */
+  text-align: center;                  /* Center align the text */
+  padding: 2em;                        /* Padding: 2 times the font size */
+}
+
+/* Style for main content */
+main {
+  background-color: lightgray;         /* Light gray background */
+  text-align: center;                  /* Center align the text */
+  padding: 2em;                        /* Padding */
+}
+
+/* Style for footer */
+footer {
+  background-color: lightcoral;        /* Light coral background */
+  text-align: center;                  /* Center align the text */
+  padding: 2em;                        /* Padding */
+}

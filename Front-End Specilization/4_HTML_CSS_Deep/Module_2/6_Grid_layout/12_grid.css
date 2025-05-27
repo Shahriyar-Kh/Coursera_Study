@@ -1,0 +1,52 @@
+/* Parent grid container for all segments */
+.parent {
+  display: grid;                           /* Enable grid layout */
+  grid-template-columns: repeat(12, 1fr);  /* Create 12 equal-width columns */
+  gap: 10px;                               /* Space between grid items */
+  padding: 20px;                           /* Space around the grid */
+}
+
+/* Common styling for all grid items */
+.parent div {
+  display: grid;                           /* Use grid layout inside each item */
+  place-items: center;                     /* Center content horizontally & vertically */
+  height: 100px;                           /* Set height */
+  color: #333;                             /* Text color */
+  font-weight: bold;                       /* Bold text */
+}
+
+/* Grid item spanning 12 columns */
+.span12 {
+  background-color: lightgreen;            /* Background color */
+  grid-column: 1 / span 12;                /* Start at column 1, span 12 columns */
+}
+
+/* Grid item spanning 8 columns, starting from column 5 */
+.span8 {
+  background-color: bisque;                /* Background color */
+  grid-column: 5 / span 8;                 /* Start at column 5, span 8 columns */
+}
+
+/* Grid item spanning 4 columns, starting from column 1 */
+.span4 {
+  background-color: lavender;              /* Background color */
+  grid-column: 1 / span 4;                 /* Start at column 1, span 4 columns */
+}
+
+/* Grid item spanning 6 columns, starting from column 4 */
+.span6 {
+  background-color: lightblue;             /* Background color */
+  grid-column: 4 / span 6;                 /* Start at column 4, span 6 columns */
+}
+
+/* Grid item spanning 3 columns, starting from column 10 */
+.span3 {
+  background-color: peachpuff;             /* Background color */
+  grid-column: 10 / span 3;                /* Start at column 10, span 3 columns */
+}
+
+/* Grid item spanning 9 columns, starting from column 2 */
+.span9 {
+  background-color: lightpink;             /* Background color */
+  grid-column: 2 / span 9;                 /* Start at column 2, span 9 columns */
+}
