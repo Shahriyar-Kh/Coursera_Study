@@ -1,0 +1,46 @@
+.row {
+  display: flex;
+  align-items: stretch;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.label {
+  flex: 0 1 150px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.dish {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+  height: 100px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.pasta {
+  flex-basis: 35%;
+  background-color: #FF7F50;
+}
+
+.pizza {
+  flex-basis: 50%;
+  background-color: #4682B4;
+}
+
+.burrito {
+  flex-basis: 15%;
+  background-color: #32CD32;
+}

@@ -1,0 +1,18 @@
+🔹 Scenario 1: Vertical Bar Chart – “Preferred Dishes”
+✅ HTML Structure
+.row: Flex container (horizontal layout)
+
+.label: Title label
+
+.container: Contains .dish bars
+
+.dish.pasta, .dish.pizza, .dish.burrito: Each representing a preferred dish
+
+✅ CSS Styling
+.row: display: flex; align-items: stretch;
+
+.label: Styled using flex shorthand
+
+.container: Contains .dish with varying flex-basis
+
+Individual dishes colored using class selectors
