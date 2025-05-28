@@ -1,0 +1,53 @@
+/* Step 1: Apply grid layout to body */
+body {
+  display: grid; /* Enables CSS Grid */
+  height: 300px; /* Total height of grid */
+  width: 100%;   /* Full width of the page */
+
+  /* Step 2: Define named grid areas */
+  grid-template-areas:
+    "head head"       /* Row 1: 'head' spans 2 columns */
+    "nav  main"       /* Row 2: 'nav' in column 1, 'main' in column 2 */
+    "footer footer";  /* Row 3: 'footer' spans 2 columns */
+
+  /* Step 3: Set the sizes of rows */
+  grid-template-rows: 60px 1fr 40px; /* Header: 60px, Main/Nav: flexible, Footer: 40px */
+
+  /* Step 4: Set the sizes of columns */
+  grid-template-columns: 200px 1fr;  /* Column 1: 200px (for nav), Column 2: flexible (for main) */
+
+  gap: 5px; /* Optional: adds space between grid cells */
+  margin: 0; /* Remove default margin */
+}
+
+/* Step 5: Assign each area to a specific grid area by name */
+.head {
+  grid-area: head;         /* Places this element in the 'head' area */
+  background-color: #87cefa;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Navigation panel styles */
+.nav {
+  grid-area: nav;          /* Places this element in the 'nav' area */
+  background-color: #ffe4b5;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Main content area styles */
+.main {
+  grid-area: main;         /* Places this element in the 'main' area */
+  background-color: #d3d3d3;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Footer styles */
+.footer {
+  grid-area: footer;       /* Places this element in the 'footer' area */
+  background-color: #f08080;
+  text-align: center;
+  padding: 10px;
+}
