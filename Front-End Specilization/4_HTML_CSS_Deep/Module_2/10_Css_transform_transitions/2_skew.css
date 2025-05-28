@@ -1,0 +1,11 @@
+.B {
+  margin: 20px;
+  transform: skewX(10deg);
+  transition: transform 5s;
+}
+
+.A {
+  margin: 20px;
+  transform: rotate(10deg);
+  transition: transform 5s;
+}
