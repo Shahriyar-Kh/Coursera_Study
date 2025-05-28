@@ -1,0 +1,33 @@
+/* Keyframe definition for bouncing animation */
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(640px, 0, 0);
+  }
+}
+
+/* Styling and animation for the ball */
+#ball {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #62687F;
+
+  animation: bounce 2s linear infinite alternate;
+}
+
+/* 
+ Notes:
+translate3d(640px, 0, 0): Moves the ball 640px on the x-axis.
+
+linear: Makes the motion uniform (no acceleration or deceleration).
+
+alternate: Plays animation back and forth.
+
+infinite: Loops the animation forever.
+
+
+
+*/
