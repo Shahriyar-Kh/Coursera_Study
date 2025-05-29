@@ -1,0 +1,101 @@
+/* Set basic font and background for the page */
+body {
+  font-family: sans-serif;             /* Clean, readable font */
+  background: #f0f0f0;                 /* Light gray background */
+  padding: 40px;                       /* Space around the content */
+  text-align: center;                  /* Center align content */
+}
+
+/* Main animated box */
+.box {
+  width: 150px;
+  height: 150px;
+  margin: 40px auto;
+  background-color: coral;             /* Initial background color */
+
+  transform: rotate(0deg);             /* No initial rotation */
+  transition: 
+    transform 0.6s ease-in-out,       /* Smooth transform animation */
+    background-color 1s;              /* Smooth background color change */
+
+  animation: pulse 4s ease-in-out infinite alternate; /* Applies pulse keyframe */
+  transform-origin: center center;     /* Sets transform pivot to center */
+}
+
+/* Box on hover - combining multiple transform effects */
+.box:hover {
+  transform: 
+    rotate(45deg)                      /* Rotates the box */
+    scale(1.2)                         /* Scales it up */
+    translate(20px, 10px)             /* Moves it slightly */
+    skew(10deg, 5deg);                /* Skews the shape */
+
+  background-color: darkorange;        /* Changes color on hover */
+}
+
+/* Pulse animation for the box */
+@keyframes pulse {
+  0%, 100% {
+    background-color: coral;          /* Original color at start and end */
+    transform: scale(1) rotate(0deg); /* Normal size and rotation */
+  }
+  50% {
+    background-color: tomato;         /* Changes to tomato mid-way */
+    transform: scale(1.1) rotate(10deg); /* Slight zoom and rotation */
+  }
+}
+
+/* 3D transform example */
+.three-d {
+  width: 100px;
+  height: 100px;
+  background: teal;
+  margin: 20px auto;
+
+  /* Applies 3D transformations */
+  transform: 
+    translate3d(20px, 30px, 40px)     /* Moves element in 3D space */
+    scale3d(1.2, 1.1, 1)              /* Scales on X and Y axes */
+    rotate3d(1, 1, 0, 45deg);         /* Rotates around a 3D axis */
+}
+
+/* Multiple animations applied simultaneously */
+.multi-anim {
+  width: 100px;
+  height: 100px;
+  background: purple;
+  margin: 20px auto;
+
+  /* Two animations: move and color change */
+  animation: 
+    moveUpDown 2s linear infinite alternate, 
+    colorChange 3s ease infinite alternate;
+}
+
+/* Move animation - vertical up and down */
+@keyframes moveUpDown {
+  from { transform: translateY(0); }
+  to { transform: translateY(50px); }
+}
+
+/* Background color change animation */
+@keyframes colorChange {
+  0%   { background-color: purple; }
+  50%  { background-color: indigo; }
+  100% { background-color: violet; }
+}
+
+/* Demonstration of transform-origin */
+.origin-demo {
+  width: 80px;
+  height: 80px;
+  background: green;
+  margin: 20px auto;
+
+  transform-origin: bottom right;     /* Anchor at bottom-right corner */
+  transition: transform 0.5s;         /* Smooth rotation on hover */
+}
+
+.origin-demo:hover {
+  transform: rotate(90deg);           /* Rotate around bottom-right */
+}

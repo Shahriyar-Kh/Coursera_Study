@@ -35,7 +35,7 @@
 
 /* Add rules for steps 8 and 9 */
 .letters:hover p:nth-child(2){
-    transform: rotateY(720deg);
+    transform: rotateY(360deg);
     transition: 0.5s;
 
 
@@ -45,6 +45,6 @@
 /* Add rules for steps 10 and 11 */
 
 .letters:hover p:nth-child(3){
-    transform: rotateX(720deg);
+    transform: rotateX(360deg);
     transition: 1.5s;
 }
