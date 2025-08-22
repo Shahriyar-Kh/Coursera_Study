@@ -68,7 +68,7 @@ Along with code practice, this repo also includes **Coursera study notes**, cove
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/Coursera_Study.git
+   git clone https://github.com/Shahriyar-Kh/Coursera_Study.git
    ```  
 
 2. Navigate to the course you want to explore:  
