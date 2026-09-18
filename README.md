@@ -1,89 +1,47 @@
-# Coursera Study – Front-End Development Specialization  
+# Coursera Front-End Development — Study & Practice Archive
 
-🚀 This repository contains my **Coursera Specialization journey** in **Front-End Development**, including **detailed notes, hands-on projects, and practical exercises**.  
-It serves as a **complete reference** for beginners and intermediate learners who want to strengthen their **front-end development skills**.  
+A structured learning repository containing notes, exercises, and projects from a front-end development specialization.
 
----
+## Learning Coverage
 
-## 📘 Specialization Roadmap  
+The repository includes work across:
 
-### 📂 Front-End Development Specialization  
+- HTML5 and semantic markup
+- CSS, Flexbox, Grid, and responsive design
+- JavaScript fundamentals and DOM work
+- version control with Git/GitHub
+- React fundamentals
+- React components, props, state, hooks, routing, and forms
+- advanced React exercises
+- basic JavaScript / React testing examples
 
-1. **Introduction to Front-End Development**  
-   - Basics of web development  
-   - Understanding client-side vs server-side  
+## Repository Structure
 
-2. **JavaScript**  
-   - Core syntax & fundamentals  
-   - DOM manipulation  
-   - Event handling & ES6+ features  
+The main material lives under:
 
-3. **Version Control**  
-   - Git basics (init, add, commit, push)  
-   - GitHub workflows & collaboration  
+```text
+Front-End_Specilization/
+├── JavaScript practice
+├── HTML / CSS material
+├── React Basics
+├── Advanced React
+└── final / module projects
+```
 
-4. **HTML & CSS Deep Dive**  
-   - Semantic HTML5  
-   - CSS layout techniques (Flexbox, Grid)  
-   - Responsive design  
+## Positioning
 
-5. **React Basics**  
-   - Components, props, and state  
-   - JSX syntax  
-   - Event handling  
+This is a **learning archive**, not a single production application.
 
-6. **Advanced React**  
-   - React Router  
-   - Context API & Hooks  
-   - Performance optimization  
+It is useful evidence of the front-end foundation behind my newer React/Next.js work, while the current full-stack repositories demonstrate production-oriented engineering.
 
----
+## Technologies
 
-## 📒 Notes Included  
+HTML5 · CSS3 · JavaScript · React · Git · GitHub · Front-End Testing
 
-Along with code practice, this repo also includes **Coursera study notes**, covering:  
-- **Concept explanations**  
-- **Diagrams & cheat sheets**  
-- **Quick references for revision**  
+## Author
 
----
+**Shahriyar Khan** — Software Engineer · Full-Stack Python Developer
 
-## ⚡ Features  
-
-- ✅ Covers **both theory and practical projects**  
-- ✅ Includes **step-by-step course progression**  
-- ✅ Notes and examples aligned with **Coursera specialization structure**  
-
----
-
-## 🛠️ Tech Stack  
-
-- **HTML5, CSS3, JavaScript (ES6+)**  
-- **Git & GitHub**  
-- **React.js (Basic & Advanced concepts)**  
-
----
-
-## 🚀 How to Use  
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/Shahriyar-Kh/Coursera_Study.git
-   ```  
-
-2. Navigate to the course you want to explore:  
-   ```bash
-   cd Coursera_Study/Front-End_Specilization
-   ```  
-
-3. Open code files in **VS Code** or any editor of your choice.  
-
----
-
-## 📌 Tags (SEO Optimized)  
-
-`Coursera` `Front-End Development` `JavaScript` `React` `HTML CSS` `Web Development` `Coursera Specialization` `Frontend Projects`  
-
----
-
-✨ This repository is my **learning journey** – feel free to fork, star ⭐, and use it as a **study reference**.  
+- Portfolio: https://shahriyarkhan.com
+- GitHub: https://github.com/Shahriyar-Kh
+- LinkedIn: https://www.linkedin.com/in/shahriyar-khan-developer/
